@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: client
-      image: stephengrider/multi-client
+      image: k8s.gcr.io/echoserver:1.4
       ports:
-        - containerPort: 9999
+        - containerPort: 3000
